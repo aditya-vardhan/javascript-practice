@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+</style>
+<body>
+Dynamic table
+<table id='dynamicTable'></table>
+
+<script>
+  const myTable = document.getElementById("dynamicTable");
+  const tableData = [
+  	{name: 'naresh', profession:'businessman'},
+    {name: 'aditya', profession:'engineer'},
+    {name: 'raghava', profession:'dancer'},
+  ]
+  
+  const tableHeader = '<tr><td>Name</td><td>Profession</td></tr>'
+  let tableContent = '';
+ 
+ for(let i=0; i<tableData.length; i++){
+ console.log('looped')
+ 	tableContent += '<tr><td>'+tableData[i].name+'</td><td>'+tableData[i].profession+'</td></tr>'
+ }
+ myTable.innerHTML = tableHeader+tableContent
+</script>
+
+</body>
+</html>
