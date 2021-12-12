@@ -54,5 +54,20 @@ A function can be created in multiple ways:
  
  
 
-javascript scope of a variable
+next week topic: javascript scope of a variable
+
+basic html topics:
+input tag - <input />
+  input content can be modified using .content
+
+div tag - <div> </div>
+ div content can be modified using .innerHTML
+ 
+button tag - <button> </button>
+
+
+script tag -  <script> </script> tag is used for injecting javascript
+
+style tag - <style> </style> tag is used for injecting styles i.e beautify html content
+
 
