@@ -1,0 +1,58 @@
+data types / variables
+  string - 'aditya', '21', 'true', 'false', "vasanth"
+  number - 1, 21
+  boolean - true, false (true and false without quotes)
+  objects - object is a key value pair closed inside flower brackets, syntax: { key: 'value' }, examples: {"1":"aditya"}, {teegala:"shiva"}, {"teegala":"shiva"} Note:key does not need to be mentioned in quotes
+  array - array is a structure which starts and closes with square brackets. syntax: [ value ], examples: [1,5,10], ['sampath', 'aditya'], [{"teegala":"shiva"},{"teegala":"chinni"}]
+Note: objects and arrays can be designed into complex structures depending on requirement. example: [{ name: 'vasanth', city: 'nzb', marks:[20, 22, 25, 11, 0, 12] }]  
+
+
+declaring and defining variables:
+
+declaring: let x;
+defining: x = 12;
+declare and define at same time let x = 12;
+Note: declaration can be done only once. Defining can be done multiple i.e time. Means a variable can be re-defined/assigned with different value.
+
+
+ arithmatic operators:
+ addition: +
+ subtraction: -
+ multiplication: *
+ division quotient: /
+ division reminder: % 
+ 
+ conditional operators in javascript:
+  (is equals)   === 
+  (is greater than or equals)  <=
+  (is less than or equals)  >=
+  (is greater than )  >
+  (is less than)  <
+ 
+javascript conditional statements:
+Conditional statements are piece/block of code which will be executed on meeting the condition. 1: if, 2: if else, 3: if else if chain, 4: switch
+example: let x = 5; let y = 5;
+          if(x === y) {
+            console.log('x and y are equal')
+          }
+
+
+javascript functions/methods:
+A function/method is a block of code designed to perform a re-usable task.
+A function can be created in multiple ways:
+  way 1:
+  let x = (a, b) => {
+    return a+b;
+  }
+
+  way 2:
+  function x(a,b) {
+    return a+b;
+  }
+ If we call the above function. let y = x(5, 7) then the value of variable y will be 12. here 5 and 7 are called parameters passed to the function x.
+ console.log() is an inbuilt javascript function. It will write parameters passed. Example: console.log('aditya') statement will print value 'aditya' to the console
+ 
+ 
+
+javascript scope of a variable
+
