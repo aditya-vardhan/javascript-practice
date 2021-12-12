@@ -1,0 +1,28 @@
+//  here x is a variable or identifier
+let x = 'shiva'; // this is declaring that x is available
+
+// console.log is a statement used to print
+// value in console
+console.log(x)
+
+x='hello' // this is giving some value to x
+
+console.log(x)
+
+x = 12 // x is defined as a number now
+
+console.log(x)
+
+x= { teegala: 'shiva' }  // this is an object
+
+console.log(x)
+
+x= ['sampath','shiva','vasanth'] // this is an array
+
+console.log(x)
+
+x=true // this is a boolean
+console.log(x)
+
+
+
