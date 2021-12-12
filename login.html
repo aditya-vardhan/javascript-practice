@@ -1,0 +1,20 @@
+<script>
+// this is a function
+let verifyUser = ( ) => {
+	let x = document.getElementById('username').value
+  let y = document.getElementById('password').value
+
+console.log(x)
+console.log(y)
+
+  if(x==='shiva@gmail.com' && y==='password@123'){
+    alert('user successfully logged in')
+  } else {
+    alert('wrong credentials')
+  }
+
+}
+</script>
+<input id='username' placeholder='enter username'  />
+<input id='password' placeholder='enter password' />
+<button onclick=verifyUser()> submit </button>
