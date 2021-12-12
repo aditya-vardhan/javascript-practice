@@ -26,3 +26,12 @@ console.log(x)
 
 
 
+// in javascript 'or' means if atleast one value/statement is true then entire statement is true
+let x=1
+let y=1
+
+if(x === y){
+	alert('yes it is true')
+} else {
+	alert('no it is false')
+}
