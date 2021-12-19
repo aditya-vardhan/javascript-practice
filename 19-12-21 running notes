@@ -1,2 +1,13 @@
 https://stackblitz.com/edit/react-zyyvrm?file=src/App.js
 https://react-zyyvrm.stackblitz.io
+
+
+today's task:
+
+
+create table for following data using react.js:
+const tableData = [
+  	{name: 'naresh', profession:'businessman'},
+    {name: 'aditya', profession:'engineer'},
+    {name: 'raghava', profession:'dancer'},
+  ]
