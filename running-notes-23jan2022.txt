@@ -1,0 +1,105 @@
+// "json" structures
+
+
+// here x is an object
+const x = {
+	y:24,  // here y is a key and 24 is a value, y:24 is a key and value pair
+	z: 12,
+	t: {
+	  z:'vasanth',
+	  y: {
+		sampath: '12'
+	  }
+	}
+  }
+  
+  
+  
+  console.log(x.t.y) // this will print {sampath: '12'}
+
+
+const x = [1, 2, 'abc'] // this is an array
+
+console.log(x)
+
+// indexes 0  1  2      3
+const x = [1, 2, 'abc', 'sampath'] // this is an array
+
+console.log(x[3], x[2]) // this will print: sampath abc
+
+
+
+// indexes 0  1  2      3
+const x = [1, 2, 'abc', 'sampath', [23, 24]] // this is an array
+
+console.log(x[4][1]) // this will print 24
+
+
+// letters inside a string can be accessed using indexes
+const y = 'hello, this is aditya'
+
+console.log(y[3])
+
+
+// indexes 0  1  2 
+const x = [100, 200] // this is an array
+
+console.log(x[4]) // there is no value at 4th index
+
+console.log(x[4][1]) // when we are trying to access any property on an unavailable property, it will throw error
+
+
+const x = {}
+
+console.log(x.y) // here y is not there inside x house. that's fine.. js will tell us y is undefined
+
+
+console.log(x.y.t) // here y is not there and we are saying y is having a kid t ... js will throw error
+
+// indexes in js will start from 0
+const x = {
+	y: [100,200, 200, 700]
+  }
+  
+  console.log(x.y[0]); // this will print 100
+
+
+
+  const x = {
+	y: [100,200, 200, 700],
+	z: [[12,34], 22, 13]
+  }
+  
+  console.log(x.z[0][1]); // this prints 34
+
+
+  const y = [12, 24, {abc: 32}]
+
+console.log(y[2].abc); // this prints 32
+
+
+const x = { 
+	"accounting" : [   
+					   { "firstName" : "John",  
+						 "lastName"  : "Doe",
+						 "age"       : 23 },
+  
+					   { "firstName" : "Mary",  
+						 "lastName"  : "Smith",
+						  "age"      : 32 }
+				   ],                            
+	"sales"      : [ 
+					   { "firstName" : "Sally", 
+						 "lastName"  : "Green",
+						  "age"      : 27 },
+  
+					   { "firstName" : "Jim",   
+						 "lastName"  : "Galley",
+						 "age"       : 41 }
+				   ] 
+  } 
+  console.log(x.sales[1].age) // this will print 41
+
+  // arrays and object make development of any page easy and avoid duplication of code
+
+  https://stackblitz.com/edit/react-vfzep1?file=src/App.js
